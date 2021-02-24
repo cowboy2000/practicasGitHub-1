@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<!-- Página princiapl de la iglesia Hacienda del Rey  -->
+
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono_iglesia.png"/>
+        <link href="libs/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="libs/slick.css" rel="stylesheet" type="text/css"/>
+        <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>            
+            <div class="logo">
+                <img src="imagenes/logo_iglesia_1.png" alt=""/>
+            </div>                  
+        </header>        
+        <main class="contenedor">            
+                                                
+            <section class="servicios">
+                <div class="titulos-servicios">
+                    <h2 class="titulo"><span>Bienvenidos</span></h2>
+                    <h3 class="subtitulo"><span>Descubra los servicios que le ofrecemos</span></h3>
+                </div>
+                
+                <!-- ***** Inicio sección menú de opciones ***** -->
+                <nav class="grid">
+                    <div class="tipo-servicio">
+                        <a href="nuestraVision.html" class="item">
+                            <i class="fas fa-church"></i>
+                            <h3 class="titulo-item">Quiénes somos</h3>
+                        </a>
+                        <a href="reflexiones.html" class="item">
+                            <i class="fas fa-bible"></i>
+                            <h3 class="titulo-item">Reflexiones</h3>
+                        </a>
+                        <a href="#" class="item">
+                            <i class="far fa-calendar-alt"></i>
+                            <h3 class="titulo-item">Actividades</h3>
+                        </a>
+                        <a href="#" class="item">
+                            <i class="far fa-envelope"></i>
+                            <h3 class="titulo-item">Contáctenos</h3>
+                        </a>                        
+                    </div>
+                </nav>                
+                <!-- ***** Fin sección menú de opciones ***** -->  
+                
+                <!-- ***** Inicio sección galería de imágenes ***** -->
+                <div class="contenedor-slideshow" id="slideshow">
+                    <div class="contenedor-imagenes">                                                
+                         <div><img src="imagenes/paisaje_01.jpg" alt=""/></div>
+                         <div><img src="imagenes/paisaje_02.jpg" alt=""/></div>
+                         <div><img src="imagenes/paisaje_03.jpg" alt=""/></div>
+                         <div><img src="imagenes/paisaje_04.jpg" alt=""/></div>                                                                                                 
+                     </div>
+                </div>
+            </section>                        
+            <!-- ***** Fin sección galería de imágenes ***** -->
+        </main>
+        
+        <div class="wave">                            
+            <div style="height: 160px; overflow: hidden;" >
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #00354e;"></path>
+                </svg>                
+            </div>            
+        </div>
+        
+        <!-- **********  Inicio sección pie de página (footer)  ********** -->
+        <footer>            
+            <section>
+                <div class="contenedor-footer">                                    
+                    <div class="contenedor-columnas">                    
+                        <div class="columna-logo">
+                            <img src="imagenes/logo_iglesia_2.png" alt="" class="logo"/>
+                        </div>                    
+                        <div class="columna-menu">
+                            <h2>Conozca nuestra iglesia:</h2>
+                            <ul>
+                                <li><a href="#">Quiénes somos</a></li>
+                                <li><a href="#">Reflexiones</a></li>
+                                <li><a href="#">Actividades</a></li>
+                                <li><a href="#">Contáctenos</a></li>
+                            </ul>                                                                                                
+                        </div>                    
+                        <div class="columna-redes">
+                            <h2>Redes sociales:</h2>
+                            <label>Siguenos por:</label>
+                            <div class="fila2">
+                                <a href="#"><i class="btnRedes fab fa-facebook-f"></i><label>Facebook</label></a>
+                            </div>
+                        </div>                    
+                        <div class="columna-contacto">
+                            <h2>Información de contacto:</h2>
+                            <div class="fila3">
+                                <i class="icono fas fa-home"></i>
+                                <label>Moravia, del supermercado<br>MegaSúper 200 mts al este</label>
+                            </div>
+
+                            <div class="fila3">
+                                <i class="icono fas fa-mobile-alt"></i>
+                                <label>2222-3333</label>
+                            </div>
+
+                            <div class="fila3">
+                                <i class="icono far fa-envelope"></i>
+                                <label>Lorem_ipsum@gmail.com</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+            <section class="contenedor-informacion">
+                <div class="barra-info">
+                    <div class="copyright">
+                        <i class="far fa-copyright"></i>
+                        <label>2020 Todos los Derechos Reservados&nbsp;&nbsp;|&nbsp;&nbsp;Iglesia Hacienda del Rey</label>                        
+                    </div>
+                </div>
+            </section>
+        </footer>
+        <!-- **********  Fin sección pie de página (footer)  ********** -->
+                
+        <script src="libs/jquery-3.2.0.js" type="text/javascript"></script>
+        <script src="libs/slick.js" type="text/javascript"></script>
+        <script src="javascript/galeriaImagenes.js" type="text/javascript"></script>
+    </body>
+</html>
